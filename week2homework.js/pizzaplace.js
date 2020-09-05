@@ -7,9 +7,9 @@ console.log(typeof pizzaPlace);
 console.log(typeof numberOfToppings);
 
 console.log(
-  `Welcome to the, ` +
+  `Welcome to ` +
     pizzaPlace +
-    ` home of over ` +
+    ` home of exactly ` +
     numberOfToppings +
     ` toppings!`
 );
