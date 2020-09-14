@@ -24,20 +24,3 @@ function servePizza() {
   return `Order up! Here is your ${customerOrder1} pizza...Enjoy!`;
 }
 console.log(servePizza());
-
-// brandon's test functions
-// function brandonIsAwesome() {
-//   return "hey im cool";
-// }
-// function colorOfShirt(shirt) {
-//   return `and I'm wearing a blue ${shirt}`;
-// }
-// function putItAllTogether(greeting, clothingtype) {
-//   console.log(`${greeting} ${clothingtype}`);
-// }
-// function lastOne(shirtType) {
-//   const greeting = brandonIsAwesome();
-//   const shirt = colorOfShirt(shirtType);
-//   putItAllTogether(greeting, shirt);
-// }
-// lastOne("v-neck");
