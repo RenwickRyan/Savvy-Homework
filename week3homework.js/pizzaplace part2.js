@@ -1,8 +1,9 @@
-let size = ["small", "medium", "large"];
-let crust = ["thin crust", " thick crust"];
+const size = ["small", "medium", "large"];
+const crust = ["thin crust", " thick crust"];
 let customerName = " Ryan";
 
 const pizzaToppings = ["pepperoni", "sausage", "bacon", "pineapple"];
+
 let pizzaObject = [size[1], crust[1], ...pizzaToppings];
 
 function greetCustomer() {
