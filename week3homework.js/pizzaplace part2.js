@@ -3,7 +3,7 @@ let crust = ["thin crust", " thick crust"];
 let customerName = " Ryan";
 
 const pizzaToppings = ["pepperoni", "sausage", "bacon", "pineapple"];
-let customerOrder1 = [size[1], crust[1], pizzaToppings[1], pizzaToppings[2]];
+let pizzaObject = [size[1], crust[1], ...pizzaToppings];
 
 function greetCustomer() {
   for (let Toppings of pizzaToppings) {
@@ -13,15 +13,15 @@ function greetCustomer() {
 }
 
 function getPizzaOrder() {
-  return `One ${customerOrder1} pizza for ${customerName}coming right up!`;
+  return `One ${pizzaObject} pizza for ${customerName}coming right up!`;
 }
 
 function preparePizza() {
-  return `Prepare...... ${customerOrder1} pizza for ${customerName}.`;
+  return `Prepare...... ${pizzaObject} pizza for ${customerName}.`;
 }
 
 function servePizza() {
-  return `Order up! Here is your ${customerOrder1} pizza ......Enjoy!`;
+  return `Order up! Here is your ${pizzaObject} pizza...Enjoy!`;
 }
 
 console.log(greetCustomer());
