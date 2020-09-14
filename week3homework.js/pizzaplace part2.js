@@ -8,7 +8,7 @@ function greetCustomer() {
 }
 console.log(greetCustomer());
 
-let customerOrder1 = [size[1], crust[1], pizzaToppings[1]];
+let customerOrder1 = [size[1], crust[1], pizzaToppings[1], pizzaToppings[2]];
 
 function getPizzaOrder() {
   return `One ${customerOrder1} pizza for ${customerName}coming right up!`;
