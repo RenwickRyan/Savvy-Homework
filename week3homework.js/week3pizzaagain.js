@@ -2,9 +2,10 @@ const pizzaToppings = ["pepperoni", "sausage", "bacon", "pineapple"];
 
 function greetCustomer() {
   for (let Toppings of pizzaToppings) {
-    console.log(Toppings);
   }
-  return `Welcome to Devil's Pizza Den. Our toppings are ${pizzaToppings}`;
+  console.log(
+    `Welcome to Devil's Pizza Den. Our toppings are ${pizzaToppings}`
+  );
 }
 greetCustomer();
 
