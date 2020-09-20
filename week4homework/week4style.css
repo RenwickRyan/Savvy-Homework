@@ -1,0 +1,68 @@
+* {
+  font-family: Futura;
+}
+body {
+  background-color: rgba(250, 160, 195, 0.45);
+}
+
+header {
+  text-align: center;
+  font-size:50px;
+}
+
+header:hover {
+  color: rgb(128, 211, 189);
+  transform: skew(-20deg);
+}
+
+#santamaria {
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  background-image: url("https://images.drstockphoto.com/1/w1024/coffee-fruit.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#lareforma {
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  background-image: url("https://perfectdailygrind.com/wp-content/uploads/2019/11/patio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1.coffeename {
+  color: #ffb9d5;
+  text-shadow: 0 0 3px #000000;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding: 20px 30px;
+}
+
+main li {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 10px #ffb9d5;
+  padding: 5px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+p {
+  font-size: 30px;
+  margin: 50px;
+  text-align: center;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+a:visited {
+  color: rgb(0, 0, 0);
+}
+a:hover {
+  color: rgb(5, 208, 154);
+}
+
