@@ -2,18 +2,19 @@
   font-family: Futura;
 }
 body {
-  background-color: rgba(250, 160, 195, 0.45);
+  background-color: rgba(255, 185, 213);
+  margin: 20px;
 }
 
 header {
-  text-shadow: 0 0 10px #ffffff;
+  text-shadow: 0 0 2px rgb(0, 0, 0);
   text-align: center;
   font-size:50px;
 }
 
 header:hover {
   color: rgb(128, 211, 189);
-  transform: skew(-20deg);
+  transform: rotateZ(180deg);
 }
 
 #santamaria {
@@ -35,8 +36,8 @@ header:hover {
 }
 
 h1.coffeename {
-  color: #ffb9d5;
-  text-shadow: 0 0 3px #000000;
+  color: rgb(255, 185, 213);
+  text-shadow: 0 0 5px rgb(0, 0, 0);
   font-size: 100px;
   font-weight: bold;
   text-align: center;
@@ -45,12 +46,14 @@ h1.coffeename {
 h1.coffeename:hover {
   color: rgb(128, 211, 189);
   transform: skew(-20deg);
+  transition-duration: 2s;
 }
 
 main li {
   color: rgb(0, 0, 0);
-  text-shadow: 0 0 10px #ffffff;
+  text-shadow: 0 0 5px rgb(255, 255, 255);
   padding: 5px;
+  margin-left: 50px;
   text-align: left;
   font-size: 30px;
   font-weight: 100;
@@ -69,6 +72,5 @@ a:visited {
   color: rgb(0, 0, 0);
 }
 a:hover {
-  color: rgb(5, 208, 154);
+  color: rgb(80, 175, 150);
 }
-
