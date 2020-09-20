@@ -6,6 +6,7 @@ body {
 }
 
 header {
+  text-shadow: 0 0 10px #ffffff;
   text-align: center;
   font-size:50px;
 }
@@ -18,6 +19,7 @@ header:hover {
 #santamaria {
   color: rgb(255, 255, 255);
   border: 2px solid black;
+  border-radius: 10px;
   background-image: url("https://images.drstockphoto.com/1/w1024/coffee-fruit.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,6 +28,7 @@ header:hover {
 #lareforma {
   color: rgb(255, 255, 255);
   border: 2px solid black;
+  border-radius: 10px;
   background-image: url("https://perfectdailygrind.com/wp-content/uploads/2019/11/patio.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,13 +40,16 @@ h1.coffeename {
   font-size: 100px;
   font-weight: bold;
   text-align: center;
-  padding-top: 20px;
-  padding: 20px 30px;
+}
+
+h1.coffeename:hover {
+  color: rgb(128, 211, 189);
+  transform: skew(-20deg);
 }
 
 main li {
   color: rgb(0, 0, 0);
-  text-shadow: 0 0 10px #ffb9d5;
+  text-shadow: 0 0 10px #ffffff;
   padding: 5px;
   text-align: left;
   font-size: 30px;
