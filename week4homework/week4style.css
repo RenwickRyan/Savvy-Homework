@@ -1,15 +1,31 @@
 * {
   font-family: Futura;
+  font-weight: lighter;
 }
+a {
+text-decoration: none;
+}
+
 body {
   background-color: rgba(255, 185, 213);
   margin: 20px;
 }
 
 header {
+  width: 100%;
   text-shadow: 0 0 2px rgb(0, 0, 0);
   text-align: center;
   font-size:50px;
+  position: absolute;
+  background-color: rgb(255, 185, 213);
+  margin: auto;
+  padding: 0px 20px;
+  z-index: 10;
+}
+
+main {
+  top: 300px;
+  position: relative;
 }
 
 header:hover {
@@ -24,6 +40,7 @@ header:hover {
   background-image: url("https://images.drstockphoto.com/1/w1024/coffee-fruit.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  top: 100px;
 }
 
 #lareforma {
@@ -38,14 +55,15 @@ header:hover {
 h1.coffeename {
   color: rgb(255, 185, 213);
   text-shadow: 0 0 5px rgb(0, 0, 0);
-  font-size: 100px;
-  font-weight: bold;
-  text-align: center;
+  font-size: 120px;
+  font-weight: lighter;
+  text-align: right;
+  padding-right: 40px;
 }
 
 h1.coffeename:hover {
   color: rgb(128, 211, 189);
-  transform: skew(-20deg);
+  transform: skew(-45deg);
   transition-duration: 2s;
 }
 
@@ -72,5 +90,48 @@ a:visited {
   color: rgb(0, 0, 0);
 }
 a:hover {
-  color: rgb(80, 175, 150);
+  color: rgb(128, 211, 189);
+}
+
+/* santa maria button */
+h2.button1 {
+  background-color: rgb(128, 211, 189);
+  border: none;
+  border-radius: 12px;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+/* la reforma button */
+
+h2.button2 {
+  background-color: rgb(128, 211, 189);
+  border: none;
+  border-radius: 12px;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+h2.button1:hover {
+background-color: black;
+color: rgb(128, 211, 189);
+text-decoration: none;
+
+}
+
+h2.button2:hover {
+background-color: black;
+color: rgb(128, 211, 189);
+text-decoration: none;
+
 }
