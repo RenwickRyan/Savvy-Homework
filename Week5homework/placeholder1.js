@@ -232,9 +232,9 @@ const data = [
 ];
 
 const phoneNumberList = data.forEach(user => {
-  console.log("list of phone numbers", user.phone);
+  console.log("Phone numbers:", user.phone);
 });
 
 const onlineData = data.forEach(user => {
-  console.log(("Emails", user.email), ("Websites", user.website));
+  console.log("Emails & Websites:", user.email, user.website);
 });

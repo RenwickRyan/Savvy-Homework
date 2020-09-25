@@ -708,7 +708,10 @@ const data = [
       "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
   }
 ];
-// Using the placeholder Post data:
 
-// create a list of user 5's posts
-// then, create a list of title and body pairs
+const user5data = data.filter(infos => infos.userId === 5);
+console.log("User 5 posts:", user5data);
+
+const titlesAndBody = data.forEach(user => {
+  console.log("Titles & Bodies:", user.title, user.body);
+});
